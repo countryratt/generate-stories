@@ -11,16 +11,16 @@
     <style>
         /* 추가된 CSS 시작 */
         .image-group {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px; /* 이미지 사이의 간격 */
             margin-top: 20px; /* 이미지 그룹과 기존 요소 간의 간격 조절 */
         }
 
         .image-group img {
-            max-width: 100%; /* 이미지가 부모 요소를 벗어나지 않도록 최대 너비 설정 */
+            width: 100%;
+            height: auto;
+            display: block;
         }
         /* 추가된 CSS 끝 */
     </style>
