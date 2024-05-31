@@ -1,5 +1,5 @@
 html, body {
-    margin: 35px;
+    margin: 0;
     padding: 0;
     background-color: #f5f5f5;
     line-height: 1.5; /* 행간격을 1.5로 설정 */
@@ -8,7 +8,6 @@ html, body {
     background-position: center; /* 이미지를 중앙에 위치시킴 */
     background-repeat: no-repeat; /* 이미지가 반복되지 않도록 함 */
 }
-
 
 .title {
     font-size: 40px;
@@ -92,6 +91,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent; /* 배경 투명하게 설정 */
 }
 
 .onion-button {
