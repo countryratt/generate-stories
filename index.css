@@ -9,6 +9,13 @@ html, body {
     background-repeat: no-repeat; /* 이미지가 반복되지 않도록 함 */
 }
 
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
 .title {
     font-size: 40px;
     margin-bottom: 25px;
@@ -80,9 +87,33 @@ html, body {
 }
 
 @media (max-width: 600px) {
+    .container {
+        padding: 0 8px;
+    }
+
     .btn {
         padding: 8px 16px;
         font-size: 16px;
+    }
+
+    .onion-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .popup-content {
+        margin: 20% auto;
+        padding: 20px;
+        width: 90%;
+        max-width: 400px;
     }
 }
 
