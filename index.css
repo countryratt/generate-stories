@@ -7,13 +7,11 @@ html, body {
     background-size: cover; /* 이미지가 전체 화면을 덮도록 함 */
     background-position: center; /* 이미지를 중앙에 위치시킴 */
     background-repeat: no-repeat; /* 이미지가 반복되지 않도록 함 */
+    box-sizing: border-box;
 }
 
-.container {
-    margin: 0 auto;
-    padding: 0 30px;
-    max-width: 1200px;
-    box-sizing: border-box;
+body {
+    padding: 0 30px; /* 모든 페이지에 동일한 여백 적용 */
 }
 
 .title {
@@ -87,8 +85,8 @@ html, body {
 }
 
 @media (max-width: 600px) {
-    .container {
-        padding: 0 8px;
+    body {
+        padding: 0 8px; /* 모바일에서의 여백 조정 */
     }
 
     .btn {
