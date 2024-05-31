@@ -18,13 +18,13 @@ html, body {
 }
 
 .title {
-   margin-top: 60px;
     font-size: 40px;
+    margin-top: 60px;
     margin-bottom: 25px;
 }
 
 .description {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 
@@ -37,8 +37,8 @@ html, body {
 .btn {
     font-size: 18px;
     padding: 10px 50px;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: 2px solid black;
     border-radius: 25px;
     text-transform: uppercase;
@@ -54,28 +54,47 @@ html, body {
     outline: none;
 }
 
-.btn:hover {
-    background-color: black;
-    color: white;
-}
-
-.btn:active {
-    background-color: white;
-    color: black;
-}
-
+/* "온라인 세상에서 이야기 만들러가기" 버튼 설정 */
 .main-btn {
-    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
 
-.additional-btn {
+.main-btn:hover {
     background-color: black;
     color: white;
 }
 
-.additional-btn:hover {
-    background-color: white;
+/* 추가 버튼들 색상 설정 */
+#btn-5floor:hover {
+    background-color: rgb(255, 119, 0);
+    color: white;
+}
+
+#btn-nerdyblue:hover {
+    background-color: rgb(25, 128, 212);
+    color: white;
+}
+
+#btn-piloti:hover {
+    background-color: rgb(189, 189, 189);
     color: black;
+}
+
+#btn-park:hover {
+    background-color: rgb(159, 230, 122);
+    color: black;
+}
+
+#btn-hoeigi:hover {
+    background-color: rgb(39, 63, 143);
+    color: white;
+}
+
+#btn-dorm:hover {
+    background-color: rgb(145, 123, 102);
+    color: white;
 }
 
 .additional-buttons {
@@ -150,9 +169,9 @@ html, body {
 }
 
 .onion-icon {
-    width: 100px;
-    height: 100px;
-    margin-top: 50px;
+    width: 90px;
+    height: 90px;
+    margin-top: 45px;
     margin-left: 30px; /* 텍스트와 아이콘 사이의 간격 */
 }
 
@@ -186,7 +205,7 @@ html, body {
 .close {
     position: absolute;
     top: 10px;
-    right: 20px;
+    right: 10px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
