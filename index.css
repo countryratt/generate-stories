@@ -195,7 +195,7 @@ html, body {
 }
 
 .onion-button:hover .onion-icon {
-    content: url('images/real.png');
+    content: url('images/realO.png');
 }
 
 /* 팝업 창 스타일 */
