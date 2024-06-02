@@ -18,7 +18,7 @@ html, body {
 }
 
 .title {
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 100px;
     margin-bottom: 25px;
 }
@@ -31,9 +31,13 @@ html, body {
 .divider {
     border: none;
     border-top: 1px solid #ccc;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
-
+.divider2 {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 60px;
+}
 
 .btn {
     font-size: 18px;
@@ -47,9 +51,8 @@ html, body {
     font-family: "IBM Plex Sans KR", sans-serif;
     transition: background-color 0.4s, color 0.4s;
     white-space: nowrap;
-    margin-top: 20px;
-    margin-bottom: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .btn:focus {
@@ -58,7 +61,6 @@ html, body {
 
 /* "온라인 세상에서 이야기 만들러가기" 버튼 설정 */
 .main-btn {
-    margin-top:50px;
     background-color: white;
     color: black;
     border: 2px solid black;
@@ -133,7 +135,7 @@ html, body {
     }
 
     .onion-icon {
-        margin-top: 2px;
+        margin-top: 5px;
         width: 80px;
         height: 80px;
     }
@@ -169,12 +171,11 @@ html, body {
     justify-content: space-between;
     align-items: center;
     background-color: transparent; /* 배경 투명하게 설정 */
-    margin-top: 38px; /* Add some margin to move it down */
+    margin-top: 60px; /* Add some margin to move it down */
 }
 
 .header-container h1 {
-    font-size: 42px; /* Increase font size */
-    font-weight: Medium;
+    font-size: 48px; /* Increase font size */
     margin-top: 0; /* Remove any top margin */
     margin-bottom: 10px; /* Adjust bottom margin if needed */
 }
@@ -189,9 +190,12 @@ html, body {
 .onion-icon {
     width: 80px;
     height: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 45px;
     margin-left: 30px; /* 텍스트와 아이콘 사이의 간격 */
+}
+
+.onion-button:hover .onion-icon {
+    content: url('images/real.png');
 }
 
 /* 팝업 창 스타일 */
@@ -251,4 +255,3 @@ html, body {
     height: auto;
     display: block;
 }
-
