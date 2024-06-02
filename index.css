@@ -18,8 +18,8 @@ html, body {
 }
 
 .title {
-    font-size: 40px;
-    margin-top: 60px;
+    font-size: 35px;
+    margin-top: 100px;
     margin-bottom: 25px;
 }
 
@@ -31,8 +31,9 @@ html, body {
 .divider {
     border: none;
     border-top: 1px solid #ccc;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
+
 
 .btn {
     font-size: 18px;
@@ -43,11 +44,12 @@ html, body {
     border-radius: 25px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'Gowun Dodum', sans-serif;
+    font-family: "IBM Plex Sans KR", sans-serif;
     transition: background-color 0.4s, color 0.4s;
     white-space: nowrap;
-    margin-right: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .btn:focus {
@@ -56,9 +58,14 @@ html, body {
 
 /* "온라인 세상에서 이야기 만들러가기" 버튼 설정 */
 .main-btn {
+    margin-top:50px;
     background-color: white;
     color: black;
     border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 600px;
 }
 
 .main-btn:hover {
@@ -83,7 +90,7 @@ html, body {
 }
 
 #btn-park:hover {
-    background-color: rgb(159, 230, 122);
+    background-color: rgb(124, 203, 82);
     color: black;
 }
 
@@ -103,8 +110,10 @@ html, body {
     gap: 10px;
 }
 
-.gowun-dodum {
-    font-family: 'Gowun Dodum', sans-serif;
+.ibm-plex-sans-kr-regular {
+    font-family: "IBM Plex Sans KR", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width: 600px) {
@@ -124,6 +133,7 @@ html, body {
     }
 
     .onion-icon {
+        margin-top: 2px;
         width: 80px;
         height: 80px;
     }
@@ -159,6 +169,14 @@ html, body {
     justify-content: space-between;
     align-items: center;
     background-color: transparent; /* 배경 투명하게 설정 */
+    margin-top: 38px; /* Add some margin to move it down */
+}
+
+.header-container h1 {
+    font-size: 42px; /* Increase font size */
+    font-weight: Medium;
+    margin-top: 0; /* Remove any top margin */
+    margin-bottom: 10px; /* Adjust bottom margin if needed */
 }
 
 .onion-button {
@@ -169,9 +187,10 @@ html, body {
 }
 
 .onion-icon {
-    width: 90px;
-    height: 90px;
-    margin-top: 45px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 30px; /* 텍스트와 아이콘 사이의 간격 */
 }
 
@@ -189,21 +208,29 @@ html, body {
 
 .popup-content {
     position: relative;
-    margin: 15% auto;
-    padding: 30px;
-    width: 90%;
-    max-width: 500px;
+    margin: 10% auto;
+    padding: 15px;
+    width: 50%;
+    max-width: 400px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .popup-content p {
-    font-size: 14px; /* 글자 크기 조정 */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px; /* 글자 크기 조정 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .close {
     position: absolute;
+    margin-right: 7px;
     top: 10px;
     right: 10px;
     font-size: 20px;
@@ -224,3 +251,4 @@ html, body {
     height: auto;
     display: block;
 }
+
