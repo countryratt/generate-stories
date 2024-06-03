@@ -175,7 +175,7 @@ html, body {
 }
 
 .header-container h1 {
-    font-size: 48px; /* Increase font size */
+    font-size: 43px; /* Increase font size */
     margin-top: 0; /* Remove any top margin */
     margin-bottom: 10px; /* Adjust bottom margin if needed */
 }
